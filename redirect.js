@@ -2,7 +2,7 @@ var targetURL = "https://old.reddit.com"
 
 function redirect(requestDetails){
 	return{
-		redirectURL: targetURL+requestDetails.url.match(/https?:\/\/[^\/]+([\S\s]*)/)[1]
+		redirectUrl: targetURL+requestDetails.url.match(/https?:\/\/[^\/]+([\S\s]*)/)[1]
 	}
 }
 
